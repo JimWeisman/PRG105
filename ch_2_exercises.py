@@ -93,20 +93,25 @@ print("=" * 10, "Section 2.8 print statement options", "=" * 10)
 # Modify the following code to display on one line, without merging the lines of code.
 # Separate the words with a hyphen, example result: one-two-three
 # DO NOT MERGE INTO ONE LINE OF CODE, use print statement options
-print('one')
-print('two')
+print('one' , end="-")
+print('two' , end="-")
 print('three')
+
+
 
 # TODO 2.8 Using escape codes
 print("=" * 10, "Section 2.8 escape codes", "=" * 10)
 # Modify the following line of code to add tabs between the days of the week
-print("Sunday Monday Tuesday Wednesday Thursday Friday Saturday")
+print("Sunday Monday Tuesday Wednesday Thursday Friday Saturday" , sep="\t")
+
 
 
 # TODO 2.8 Concatenating strings (Displaying Multiple Items with the + Operator)
 print("=" * 10, "Section 2.8 concatenating strings", "=" * 10)
 # 1) Have the user enter their name
 # 2) Greet the user, concatenate hello and their name into one string
+name = input("Hello, what is your name")
+print ("hello " + name)
 
 
 # TODO 2.8 Formatting numbers
@@ -118,7 +123,9 @@ print("=" * 10, "Section 2.8 formatting numbers", "=" * 10)
 # example:
 #               6,548,974,897.57
 number = 6548974897.5687979797
-print(number)
+print("{:,.2f}".format(number ))
+
+
 
 
 # TODO 2.8 Formatting percentage
@@ -128,4 +135,4 @@ print("=" * 10, "Section 2.8 formatting a percentage", "=" * 10)
 #     percent = .25834
 #     print(format(percent, '%'))
 percentage = .7654
-print(percentage)
+print("{:.2%}".format(percentage ))
