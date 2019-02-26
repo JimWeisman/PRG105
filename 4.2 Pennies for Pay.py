@@ -1,3 +1,8 @@
+""" 
+jim weisman
+spring 2019
+PGR105
+"""
 days_worked = int(input("Enter how many days did you work: "))
 money = .01
 pennies = 0
