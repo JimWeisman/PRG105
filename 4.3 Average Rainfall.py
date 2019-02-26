@@ -1,3 +1,7 @@
+#Jim Weisman
+#spring 2019
+#prg105
+
 print("This program will calculate total rainfall and average monthly rainfall for a period of years.")
 years = int(input("How many years would you like to collect data for? "))
 total_months = 0
