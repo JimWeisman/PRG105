@@ -17,4 +17,4 @@ for day in range(days_worked):
 
 total = pennies * .01
 
-print("\nTotal Earned over", str(days_worked), "is: $", format(money, ',.2f'))
+print("\nTotal Earned over", str(days_worked), "is: $", format(pennies / 2, ',.2f'))
