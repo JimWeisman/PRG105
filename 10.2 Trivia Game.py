@@ -91,8 +91,8 @@ def main():
         print(query.get_a2())
         print(query.get_a3())
         print(query.get_a4())
-        guess = input("Please enter the letter of the correct answer: ")
-        if guess.upper() == query.get_answer():
+        ans = input("Please enter the letter of the correct answer: ")
+        if ans.upper() == query.get_answer():
             print("You are correct!")
             player1 += 1
         else:
